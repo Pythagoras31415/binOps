@@ -30,7 +30,7 @@ def createTable(num_vars):
 '''
     Función que imprime las evaluaciones. 
     Toma por parámetros la tabla generada con el número de variables, 
-    así como la función a   evaluar.
+    así como la función a evaluar.
 '''
 def printResults(table, f):
     n = 0
