@@ -56,19 +56,14 @@ def xnor(A, B):
 
 
 '''
-    Funciones a evaluar.
+    Ejemplo que corresponde a la función
+    /(/(AB) + /(CD)) * (A + B)
 '''
-def fun1(table):
-    A, B, C = table
-
-    return nor(nand(not A, B), C)
-
-
-def fun2(table):
+def fun(table):
     A, B, C, D = table
 
     return nor(nand(A, B), nand(C, D)) and (A or B)
 
 
 # Llamadas a las funciones
-printResults(createTable(4), fun2)
+printResults(createTable(4), fun)
